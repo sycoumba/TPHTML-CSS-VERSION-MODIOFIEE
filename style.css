@@ -1,0 +1,92 @@
+
+
+*{
+    color: #edf0f1;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(68, 76, 87, 0.6),rgba(0,0,0,0.6)),url(imgtp.png);
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size:cover ;
+    position: relative;
+}
+.image{
+    width: 100%;
+}
+
+
+li,a{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;/* Éléments flexibles groupés à la fin */
+    align-items: center;
+    padding: 10px 50px 20px;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;   
+    font-size: 20px;  
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu li a:hover{
+    transition: all 0.3s ease 0s;
+    color:rgba(1, 77, 1, 0.603);
+}
+.ligne{
+    width:95%
+
+}
+
+.text{
+   
+    margin: 0;
+    text-align: center;
+    padding: 100px 50px 20px;/*100px ecart en haut*/   
+}
+
+.flex-container{
+    display:flex;
+    justify-content: space-around;;/*L'espace utilisé entre chaque élément est le même.*/ 
+    text-align: center; 
+      flex-direction: row;
+}
+/*.flex-container span {
+    color:rgba(1, 77, 1, 0.603);  
+    font-size: 30px;
+}*/
+.vertical-line{
+    border-right: 2px solid white;
+}
+
+.bouton{
+   position: absolute;
+   top: 80%;
+   left: 42%;
+   background-color: rgb(18, 18, 19);
+   width: 180px;
+   height: 40px;
+   font-size: 15px;   
+   cursor: pointer;
+   background-color: transparent;
+   border: 3px solid green;
+   color: green;
+   border-radius: 40px;
+
+}
+p{
+    text-align: center;
+    color:  green;
+}
